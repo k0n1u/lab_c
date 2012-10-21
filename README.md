@@ -2,5 +2,13 @@ Laborki z C
 =====
 
 zadania z laboratoriów w C
+'''c
+	#include <iostream>
 
-    int main() {}
+	using namespace std;
+
+    	int main() {
+    	      
+	      cout<<"helloworld"<<endl;
+	      return 0;
+}
