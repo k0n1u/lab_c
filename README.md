@@ -3,7 +3,7 @@ Laborki z C
 
 zadania z laboratoriów w C
 
-'''c
+```c
 	#include <iostream>
 
 	using namespace std;
@@ -13,4 +13,4 @@ zadania z laboratoriów w C
 	      cout<<"helloworld"<<endl;
 	      return 0;
 }
-'''
+```
