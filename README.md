@@ -2,7 +2,8 @@ Laborki z C
 =====
 
 zadania z laboratoriów w C
-'''c++
+
+'''c
 	#include <iostream>
 
 	using namespace std;
