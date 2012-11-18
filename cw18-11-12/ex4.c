@@ -7,14 +7,19 @@ int main()
   
   printf("podaj liczbę\n");
   scanf("%d",&n);
-  
-  for(i=1;i<=n;i++)
+  if(n>0)
     {
-      wynik+=i;
+      for(i=1;i<=n;i++)
+	{
+	  wynik+=i;
+	}
+      printf("Wynik sumowania od 1 do %d: %d\n",n,wynik);
     }
-
-  printf("Wynik sumowania od 1 do %d: %d\n",n,wynik);
-
+  else
+    {
+      printf("podałeś liczbę mniejszą od 0\n");
+    }
+  
 
   return 0;
 }
