@@ -36,8 +36,8 @@ void mainMenu()
   while(exitCounter!=5)
     {
       printf("\n");
-      a=rnd(1,9);
-      b=rnd(1,9);
+      a=rnd(1,100);
+      b=rnd(1,100);
       printf("Ile to jest %d * %d ?\n",a,b);
       scanf("%d",&wynik);
 
