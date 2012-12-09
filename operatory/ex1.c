@@ -6,9 +6,15 @@ int main()
 {
   int min,h;
 
-  printf("podaj liczbę minut\n");
-  scanf("%d",&min);
-  h=min/L_MIN;
-  min-=h*L_MIN;
-  printf("godzin: %d, minut: %d\n",h,min);
+  while(1) {
+    printf("podaj liczbę minut. 0 lub liczba ujemna kończy program.\n");
+    scanf("%d",&min);
+
+    if(min<=0)
+      break;
+
+    h=min/L_MIN;
+    min-=h*L_MIN;
+    printf("godzin: %d, minut: %d\n",h,min);
+  }
 }
